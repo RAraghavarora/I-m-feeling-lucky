@@ -8,7 +8,7 @@ else:
 	exit()
 
 #Open the google search page
-webbrowser.open(address)
+webbrowser.open_new_tab(address)
 
 response = requests.get(address)
 #Check if the url is valid
